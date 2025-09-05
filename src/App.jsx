@@ -11,7 +11,7 @@ function App() {
       <header className='text-gray-700 border-b border-gray-200'>
         <div className='container flex mx-auto p-5 flex-col md:flex-row items-center'>
           <a href="#" className='font-medium text-gray-900 mb-4 md:mb-0'>
-            <span className='text-xl ml-3'>NisshoCode</span>
+            <span className='text-xl ml-3'>My Portfolio</span>
           </a>
           <nav className='md:ml-auto text-base'>
             <a href="#home" className='mr-5 hover:text-blue-400 duration-300'>Home</a>
@@ -77,8 +77,8 @@ function App() {
                         fill="currentColor"
                       />
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M3 4C3 2.34315 4.34315 1 6 1H18C19.6569 1 21 2.34315 21 4V20C21 21.6569 19.6569 23 18 23H6C4.34315 23 3 21.6569 3 20V4ZM6 3H18C18.5523 3 19 3.44772 19 4V20C19 20.5523 18.5523 21 18 21H6C5.44772 21 5 20.5523 5 20V4C5 3.44772 5.44772 3 6 3Z"
                         fill="currentColor"
                       />
@@ -108,7 +108,7 @@ function App() {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path d="M13 10H17V16H13V10Z" fill="currentColor" fill-opacity="0.5" />
+                      <path d="M13 10H17V16H13V10Z" fill="currentColor" fillOpacity="0.5" />
                       <path d="M11 4H7V16H11V4Z" fill="currentColor" />
                       <path d="M18 18H6V20H18V18Z" fill="currentColor" />
                     </svg>
